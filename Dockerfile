@@ -14,4 +14,5 @@ RUN useradd -d /workdir developer
 
 COPY start.sh /start.sh
 ENTRYPOINT ["/start.sh"]
+
 CMD ["bash"]
