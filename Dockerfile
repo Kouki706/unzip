@@ -8,6 +8,7 @@ RUN apt update && \
     jlha-utils \
     tar \
     zip \
+    unzip \
     unar
 
 RUN useradd -d /workdir developer
